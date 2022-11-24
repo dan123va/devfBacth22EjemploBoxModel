@@ -1,0 +1,52 @@
+/* las unidades mas utilizadas utilizados 
+son px, %, vw, vh, rem, em */
+
+:root {
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor {
+    font-size: 20px;
+}
+
+.tema1 {
+    background-color: green;
+    width: 10rem;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.tema2 {
+    background-color: pink;
+    width: 15em;
+    border: 1px solid;
+    padding: 20px;
+    /* Si no se agrega el reset general se tienen que agregar 
+    estos calculos para dar el tamaño real
+    20 + 20 + 1 + 1 = 42 
+    300 - 42 = 258 */
+}
+
+.tema3 {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.tema4 {
+    background-color: blue;
+    width: 100%;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 16px;
+}
